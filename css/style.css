@@ -1,0 +1,282 @@
+/* css bagian 1 */
+.nav-ic{
+    margin: 30px 0px 0px 10px ;
+}
+.opd{
+    margin: 20px 20px 0px 0px;
+}
+.tombol{
+    width: 90px;
+    height: 53px;
+    border-radius: 30px;
+}
+.mn{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.as:hover{
+    background-color:#f78065;
+    color: white;
+}
+/* /css bagian 1 */
+
+/* css bagian 3 */
+.btn-warna{
+    background-color: #F78065;
+    margin: 29px 429px 75px 20px;
+    width: 220px;
+    height: 65px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.btn-icon{
+    height: 24px;
+    width: 24px;
+    margin-top: -4px;
+}
+.kartu{
+    margin: -260px 500px 0px -43px ;
+    width: 680px;
+    height: 537px;
+}
+.kartu-titel{
+    font-size: 39px;
+    font-family: Merriweather, serif;
+    margin: 60px 156px 25px 20px ;
+    width: 500px;
+    height: 151px;
+}
+.kartu-teks{
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 0px 162px 29px 20px ;
+    width: 450px;
+    height: 96px;
+}
+.spn{
+    color: #f78065;
+}
+/* /css bagian 3 */
+
+/* css bagian 4 */
+.gmr-col{
+    margin-bottom: 70px;
+    margin-left: -5px;
+}
+.gmr-col1{
+    margin-bottom: 70px;
+    margin-left: -10px;
+}
+.gmr-col2{
+    margin-bottom: 70px;
+}
+.p0{
+    color:#f78065 ;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+.p1{
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+
+}
+.p2{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Merriweather, serif;
+}
+/* /css bagian 4 */
+
+/* css bagian 5 */
+.h2-1{
+    font-family: Merriweather, serif;
+}
+.ner{
+    margin-top: 120px;
+}
+
+.on1, .on2, .on3, .on4{
+    margin-top: 100px;
+}
+.is1{
+    margin-top: 50px;
+    font-family: Merriweather, serif;
+    font-size: 20px;
+}
+.is2{
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    opacity: 0.5;
+
+}
+.is3{
+    margin-bottom: 36px;
+}
+.lin{
+    color:#f78065;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.hov:hover{
+color: black;
+}
+/* /css bagian 5 */
+
+/* css bagian 6 */
+.neb{
+    margin-top: 180px;
+}
+.an1{
+    height: 320px;
+    width: 200px;
+    margin-left: 138px;
+}
+.an2{
+    height: 320px;
+    width: 200px;
+    margin-left: 100px;
+}
+.an3{
+    height: 320px;
+    width: 200px;
+    margin-left: 60px;
+}
+.be{
+    width: 260px;
+}
+.h2-2{
+    font-family: Merriweather, serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.is5{
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+.btn-wrn{
+    background-color: #F78065;
+    width: 174px;
+    height: 50px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 25px;
+    padding-top: 13px;
+}
+.lol1{
+    color: #f78065;
+    margin-left: 138px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+} 
+.lol2{
+    color: #f78065;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+.lol3{
+    color: #f78065;
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+.ges1-1{
+    margin-left: 138px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #3F3D56;
+}
+.ges2-2{
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #3F3D56;
+}
+.ges3-3{
+    margin-left: 60px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #3F3D56;
+}
+.ges1{
+    font-size: 24px;
+    margin-top: 19px;
+    margin-left: 138px;
+    font-family: Merriweather, serif;
+}
+.ges2{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 100px;
+    font-family: Merriweather, serif;
+}
+.ges3{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 60px;
+    font-family: Merriweather, serif;
+} 
+/* /css bagian 6 */
+
+/* css bagian 7 */
+.net{
+    margin-top: 80px;
+}
+.is6{
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-top: 48px;
+}
+/* /css bagian 7 */
+
+/* css bagian 8 */
+.foot{
+    background-color: #F7F7F7;
+    margin-top: 150px;
+}
+.h1-when{
+    font-size: 40px;
+    font-family: Merriweather, serif;
+}
+.p-easy{
+    font-size: 20px;
+    font-family: Merriweather, serif;
+
+}
+.h5-jud{
+    font-size: 20px;
+    font-family: Merriweather, serif;
+    /* margin-bottom: 18px; */
+}
+.ul-a{
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+/* /css bagian 8 */
