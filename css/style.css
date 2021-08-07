@@ -36,6 +36,7 @@
     width: 24px;
     margin-top: -4px;
 }
+/* kartu width > 576 px */
 .kartu{
     margin: -260px 500px 0px -43px ;
     width: 680px;
@@ -57,6 +58,36 @@
     width: 450px;
     height: 96px;
 }
+
+/* kartu untuk yg mobile <= 576 px */
+@media (max-width: 576px) { 
+    .kartu{
+        /* margin: -260px 500px 0px -43px ; */
+        width: 100%;
+        height: auto;
+    }
+    .kartu-titel{
+        font-size: 39px;
+        font-family: Merriweather, serif;
+        /* margin: 60px 156px 25px 20px ; */
+        width: 100%;
+        height: auto;
+    }
+    .kartu-teks{
+        font-size: 20px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        opacity: 0.6;
+        /* margin: 0px 162px 29px 20px ; */
+        width: 100%;
+        height: auto;
+    }
+    .an1{
+        margin-left: 0px;
+    }
+}
+
+
 .spn{
     color: #f78065;
 }
@@ -106,6 +137,11 @@
 .on1, .on2, .on3, .on4{
     margin-top: 100px;
 }
+
+.on1{
+    margin-bottom: 10px;
+}
+
 .is1{
     margin-top: 50px;
     font-family: Merriweather, serif;
