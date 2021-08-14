@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="">
+    <!-- bagian penghubung css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- /bagian penghubung css -->
+
+    <!-- bagian google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- /bagian google fonts -->
+</head>
+
+<body class="boy">
+    <div class="container">
+        <div class="row ger">
+            <div class="col-4 dar">
+                <img src="../img/undraw_Login_re_4vu2.svg" alt="" class="gan">
+                <h3 class="cou">Create an Account</h3>
+                <p class="cen"><img src="../icon/svg.svg" alt="" height="30" width="30"> Eazy Camper</p>
+            </div>
+            <div class="col-8 cz">
+                <div class="row">
+                    <div class="col-md-7 col-lg-8">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <p class="zy"><img src="../icon/svg.svg" alt=""> Eazy Camper</p>
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label pir">First name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email"
+                                        placeholder="eazyeamper@easy.com">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+
+                                <label for="of" class="form-label">Date of birth</label>
+                                <div class="col-md-4 ccv">
+                                    <select class="form-select" id="date" required>
+                                        <option value="">Date</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <!-- <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option> -->
+
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid country.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 ccv">
+                                    <select class="form-select" id="month" required>
+                                        <option value="">Month</option>
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <!-- <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option> -->
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 ccv">
+                                    <select class="form-select" id="year" required>
+                                        <option value="">Year</option>
+                                        <option>2021</option>
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state" class="form-label">Gender</label>
+                                    <select class="form-select" id="gender" required>
+                                        <option value="">Choose...</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <button class="w-100 btn btn-primary btn-lg" type="submit">Create your account</button>
+                            <p class="mt-3 das text-muted sas1">Already Registred ? <a href="../html/sign.html">
+                                    Sing
+                                    In</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bagian js -->
+    <script src="../js/bootstrap.js"></script>
+    <!-- /bagian js -->
+</body>
+
+</html>

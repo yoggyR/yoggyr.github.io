@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eazy Camper</title>
-
     <!-- bagian penghubung css -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
     <!-- /bagian penghubung css -->
 
@@ -19,31 +19,27 @@
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;700&display=swap"
         rel="stylesheet">
     <!-- /bagian google fonts -->
-
 </head>
 
 <body>
-    <!-- bagian 1 -->
     <header>
-        <nav class="navbar navbar-expand-lg ">
+        <!-- bagian 1 -->
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand nav-ic" href="#">
-                    <img src="../icon/cube 1.svg" alt="" width="32" height="32">
-                </a>
+                <a class="navbar-brand" href="#"><img src="../icon/cube 1.svg" alt="" width="32" height="32"
+                        class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <div class="dropdown opd">
-                            <button class="btn btn-light tombol" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../icon/expand_less.svg" alt="">
-                                <img src="../icon/CL_Type-User.svg" alt="" width="32" height="32">
-                            </button>
-                            <ul class="dropdown-menu mn" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item as" href="#">Profil</a></li>
-                                <li><a class="dropdown-item as" href="#">Pengaturan</a></li>
-                                <li><a class="dropdown-item as" href="#">Keluar</a></li>
-                            </ul>
-                        </div>
+                        <a class="nav-item nav-link me-4 xc" href="#">Home</a>
+                        <a class="nav-item nav-link me-4 xc" href="#">Service</a>
+                        <a class="nav-item nav-link me-4 xc" href="#">Gallery</a>
+                        <a class="nav-item nav-link me-4 xc" href="#">Information</a>
+                        <a class="nav-item btn me-4 btn masuk btn-dark" href="../html/sign.html">Sign In</a>
                     </div>
                 </div>
             </div>
@@ -52,21 +48,12 @@
 
         <!-- bagian 2 -->
         <div class="jtron">
-            <style>
-                .jtron {
-                    background-image: url(../img/braden-collum-75XHJzEIeUc-unsplash.jpg);
-                    background-size: cover;
-                    height: 640px;
-                    margin-top: -100px;
-                    background-position: 0px 640px;
-                }
-            </style>
         </div>
+        <!-- /bagian 2 -->
     </header>
-    <!-- /bagian 2 -->
 
-    <!-- bagian 3 -->
     <main>
+        <!-- bagian 3 -->
         <div class="container">
             <div class="card kartu shadow p-3 mb-5 bg-body rounded">
                 <div class="card-body">
@@ -88,8 +75,9 @@
         <div class="container ner px-4">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
-                <div class="feature col">
-                    <img src="../img/2close_tab.svg" alt="" width="247.5px" height="180px" class="gmr-col">
+                <div class="feature col" data-aos="fade-up" data-aos-offset="500" data-aos-delay="50"
+                    data-aos-duration="2000">
+                    <img src="../img/2close_tab.svg" alt="" class="gmr-col gbr">
                     <p class="p2">Promoting your territory towards foreign tourists</p>
                     <p class="p1">EasyCamper wants to promote the excellence of Italian food and wine, art, culture and
                         the
@@ -99,8 +87,9 @@
                         structure</a>
                 </div>
 
-                <div class="feature col">
-                    <img src="../img/4tourist.svg" alt="" width="247.5px" height="180px" class="gmr-col1">
+                <div class="feature col" data-aos="fade-down" data-aos-offset="500" data-aos-delay="250"
+                    data-aos-duration="2000">
+                    <img src="../img/4tourist.svg" alt="" class="gmr-col1 gbr">
                     <p class="p2">Additional services designed for the needs of campers</p>
                     <p class="p1">Travelling often means that you dont have time to organise excursions along your
                         route.
@@ -112,9 +101,10 @@
                     </a>
                 </div>
 
-                <div class="feature col">
+                <div class="feature col" data-aos="fade-up" data-aos-offset="500" data-aos-delay="150"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
-                        <img src="../img/3destination.svg" alt="" width="247.5px" height="180px" class="gmr-col2">
+                        <img src="../img/3destination.svg" alt="" class="gmr-col2 gbr">
                     </div>
                     <p class="p2">Free online showcase with promotion in Italy and abroad</p>
                     <p class="p1">Forget about the time and money spent on creating your own website or e-commerce
@@ -132,11 +122,12 @@
         <!-- /bagian 4 -->
 
         <!-- bagian 5 -->
-        <div class="container ner px-4">
+        <div class="container nera px-4">
             <h2 class=h2-1>Making your facility known is our priority</h2>
-            <div class="row g-4 row-cols-1 row-cols-lg-4">
+            <div class="row g-4 row-cols-2 row-cols-md-2  row-cols-lg-4">
 
-                <div class="feature col on1">
+                <div class="feature col on" data-aos="zoom-in-down" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/format-list-checks 1.svg" alt="">
                     </div>
@@ -147,7 +138,8 @@
                     <a href="#" class="lin hov">Show me more</a>
                 </div>
 
-                <div class="feature col on2">
+                <div class="feature col on" data-aos="zoom-in-up" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/spellcheck.svg" alt="">
                     </div>
@@ -156,7 +148,8 @@
                     <a href="#" class="lin hov">Show me more</a>
                 </div>
 
-                <div class="feature col on3">
+                <div class="feature col on" data-aos="zoom-in-down" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/WCR_Text-Frame-Add.svg" alt="">
                     </div>
@@ -166,7 +159,8 @@
                     <a href="#" class="lin hov">Show me more</a>
                 </div>
 
-                <div class="feature col on4">
+                <div class="feature col on" data-aos="zoom-in-up" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/WCR_Calendar-Today.svg" alt="">
                     </div>
@@ -195,29 +189,32 @@
 
                 <div class="feature col ">
                     <div class="feature-icon">
-                        <img src="../img/orang1.jpg" alt="" class="an1">
+                        <img src="../img/orang1.jpg" alt="" class="an1 na" class="feature col on" data-aos="flip-up"
+                            data-aos-offset="460" data-aos-delay="50" data-aos-duration="2000">
                     </div>
-                    <p class="ges1">Lucciano</p>
-                    <p class="ges1-1">Rome</p>
-                    <a href="#" class="lol1 hov">View the Site</a>
+                    <p class="ges1 egs">Lucciano</p>
+                    <p class="ges1-1 seg">Rome</p>
+                    <a href="#" class="lol1 olo hov">View the Site</a>
                 </div>
 
                 <div class="feature col ">
                     <div class="feature-icon">
-                        <img src="../img/orang2.jpg" alt="" class="an2">
+                        <img src="../img/orang2.jpg" alt="" class="an2 na" data-aos="flip-up" data-aos-offset="460"
+                            data-aos-delay="50" data-aos-duration="2000">
                     </div>
-                    <p class="ges2">Cremonesi</p>
-                    <p class="ges2-2">Florence</p>
-                    <a href="#" class="lol2 hov">View the Site</a>
+                    <p class="ges2 egs">Cremonesi</p>
+                    <p class="ges2-2 seg">Florence</p>
+                    <a href="#" class="lol2 olo hov">View the Site</a>
                 </div>
 
                 <div class="feature col ">
                     <div class="feature-icon">
-                        <img src="../img/orang3.jpg" alt="" class="an3">
+                        <img src="../img/orang3.jpg" alt="" class="an3 na" data-aos="flip-up" data-aos-offset="460"
+                            data-aos-delay="50" data-aos-duration="2000">
                     </div>
-                    <p class="ges3">Beneventi</p>
-                    <p class="ges3-3">Venice</p>
-                    <a href="#" class="lol3 hov">View the Site</a>
+                    <p class="ges3 egs">Beneventi</p>
+                    <p class="ges3-3 seg">Venice</p>
+                    <a href="#" class="lol3 olo hov">View the Site</a>
                 </div>
 
             </div>
@@ -226,108 +223,115 @@
 
         <!-- bagian 7 -->
         <div class="container net px-4 py-5">
-            <h2 class=h2-1>Our Advantages</h2>
+            <h2 class="h2-1 hh">Our Advantages</h2>
             <div class="row g-4 row-cols-1 row-cols-lg-3">
 
-                <div class="feature col on1">
+                <div class="feature col on" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/WCR_Compare2-HighlightDiff-cont.svg" alt="">
                     </div>
                     <p class="is1">Convenience and Transparency</p>
-                    <p class="is6">You don’t have to find out later or only after
+                    <p class="is6 si">You don’t have to find out later or only after
                         camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin
                         a fixed commission on each transaction of 5
                     </p>
                 </div>
 
-                <div class="feature col on2">
+                <div class="feature col on" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/library_books.svg" alt="">
                     </div>
                     <p class="is1">Digital marketing and editorial support</p>
-                    <p class="is2">You don’t have to find out later or only after
+                    <p class="is2 si">You don’t have to find out later or only after
                         camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin
                         a fixed commission on each transaction of 5</p>
                 </div>
 
-                <div class="feature col on3">
+                <div class="feature col on" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-duration="2000">
                     <div class="feature-icon">
                         <img src="../icon/WCR_Compare-HSV.svg" alt="">
                     </div>
                     <p class="is1">Community of services dedicated to campers</p>
-                    <p class="is2">You don’t have to find out later or only after
+                    <p class="is2 si">You don’t have to find out later or only after
                         camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin
                         a fixed commission on each transaction of 5</p>
                 </div>
 
             </div>
         </div>
+        <!-- /bagian 7 -->
     </main>
-    <!-- /bagian 7 -->
 
     <!-- bagian 8 -->
     <div class="foot">
         <div class="container ">
-            <footer class="px-3 ">
+            <footer class="px-3">
 
-                <div class="row py-2 ">
-                    <div class="col-2 py-5 ">
+                <div class="row g-4 row-cols-1 row-cols-lg-5 py-5">
+                    <div class="col">
                         <p class="p-easy">Easy Camper</p>
                         <h1 class="h1-when">When Passion Meets Comfort.</h1>
                     </div>
 
-                    <div class="col-3 offset-2 py-5">
-                        <h5 class="h5-jud mb-4">Discover the Network</h5>
+                    <div class="col loc">
+                        <h5 class="h5-jud ">Discover the Network</h5>
                         <ul class="nav flex-column ul-a">
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Where to shop</a>
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Where to shop</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Tour Guided</a>
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Tour Guided</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Our Tours</a>
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Our Tours</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-3 py-5">
-                        <h5 class="h5-jud mb-4">Become a Manager</h5>
+                    <div class="col coc">
+                        <h5 class="h5-jud ">Become a Manager</h5>
                         <ul class="nav flex-column ul-a">
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Join your
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Join your
                                     Pairing</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Offer your
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Offer your
                                     Service</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Are you a
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Are you a
                                     guide?</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-2 py-5">
-                        <h5 class="h5-jud mb-4">Assistance</h5>
+                    <div class="col coc ">
+                        <h5 class="h5-jud ">Assistance</h5>
                         <ul class="nav flex-column ul-a">
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Support
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Support
                                     Center</a>
                             </li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Cancallation
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Cancallation
                                     Options</a></li>
-                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Reliablity and
+                            <li class="nav-item "><a href="#" class="nav-link p-0 text-muted">Reliablity and
                                     Sequrity</a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-between py-3  border-top">
-                    <p class="ul-a">EazyCamper. All rights reserved.</p>
-                    <ul class="list-unstyled d-flex ul-a ">
-                        <li class="ms-4 "><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                        <li class="ms-4 "><a href="#" class="nav-link p-0 text-muted">Site Map</a></li>
-                        <li class="ms-4 "><a href="#" class="nav-link p-0 text-muted">Terms</a></li>
-                        <li class="ms-4 "><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
-                        <li class="ms-4 "><a href="#" class="nav-link p-0 text-muted">Teams</a></li>
-                    </ul>
+                <div class="row g-4 row-cols-1 row-cols-lg-2 border-top">
+                    <div class="col">
+                        <p class="ul-c ul-a">EazyCamper. All rights reserved.</p>
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled ul-b ">
+                            <li><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                            <li><a href="#" class="nav-link p-0 text-muted">Site Map</a></li>
+                            <li><a href="#" class="nav-link p-0 text-muted">Terms</a></li>
+                            <li><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                            <li><a href="#" class="nav-link p-0 text-muted">Teams</a></li>
+                        </ul>
+                    </div>
                 </div>
 
             </footer>
@@ -335,10 +339,13 @@
     </div>
     <!-- /bagian 8 -->
 
-    <!-- bagian penghubung js -->
+    <!-- bagian js -->
     <script src="../js/bootstrap.js"></script>
-    <!-- /bagian penghubung js -->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- /bagian js -->
 </body>
 
 </html>
