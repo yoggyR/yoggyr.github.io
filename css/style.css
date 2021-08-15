@@ -284,6 +284,30 @@
     /* ========= */
 
     /* desktop bagian 8 */
+    .nes{
+        margin-top: 130px;
+        margin-bottom: 250px;
+    }
+    .ting{
+        margin-top: 40px;
+    }
+    .form-label{
+        font-family: Merriweather, serif;
+        font-size: 18px;
+    }
+    .form-control{
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+    }
+    .cont{
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+    }
+    /* /desktop bagian 8 */
+
+    /* ========= */
+
+    /* desktop bagian 9 */
     .foot{
         background-color: #F7F7F7;
         margin-top: 150px;
@@ -323,7 +347,7 @@
     .coc{
         margin-left: 10px;
     }
-    /* /desktop bagian 8 */
+    /* /desktop bagian 9 */
 
     /* ========= */
 
@@ -429,7 +453,7 @@
     }
     .ger{
         margin-left: 60px;
-        margin-top: 60px;
+        margin-top: 45px;
     }
     .das{
         font-size: 12px;
@@ -665,6 +689,31 @@
     /* ========= */
 
     /* mobile baagian 8 */
+    .nes{
+        margin-top: 130px;
+        margin-bottom: 250px;
+    }
+    .ting{
+        margin-top: -30px;
+    }
+    .form-label{
+        font-family: Merriweather, serif;
+        font-size: 18px;
+    }
+    .form-control{
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+    }
+    .cont{
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+    }
+    
+    /* /mobile baagian 8 */
+
+    /* ========= */
+
+    /* mobile baagian 9 */
     .foot{
         background-color: #F7F7F7;
         margin-top: 150px;
@@ -676,13 +725,11 @@
     .p-easy{
         font-size:20px;
         font-family: Merriweather, serif;
-    
     }
     .h5-jud{
         font-size: 12px;
         font-family: Merriweather, serif;
         margin-bottom: 10px;
-        /* margin-bottom: 18px; */
     }
     .ul-a{
         font-size: 12px;
@@ -706,10 +753,10 @@
     .p-0{
         margin-bottom: 5px;
     }
-    /* /mobile baagian 8 */
+     /* /mobile baagian 9 */
 
     /* ========= */
-    
+
     /* mobile bagian sign in page */
     .ody {
         align-items: center;
@@ -815,7 +862,7 @@
         margin: auto;
         background-color: white;
         border-radius: 10px;
-        margin-top: 12px; 
+        margin-top: 4px; 
     }
     /* /mobile bagian sign up page */
 }
